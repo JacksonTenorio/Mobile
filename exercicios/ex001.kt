@@ -6,3 +6,10 @@ fun main(){
     val nomeCompleto = nome + " " + sobreNome
     println("Olá, $nomeCompleto")
 }
+/* 2. Desenvolva um  algoritmo com duas variáveis do tipo Double e imprima a soma das
+mesma*/
+fun main(){
+    val A: Double = 45.69
+    val B: Double = 32.01
+    println( A+ B)
+}
