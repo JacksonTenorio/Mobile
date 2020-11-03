@@ -13,3 +13,8 @@ fun main(){
     val B: Double = 32.01
     println( A+ B)
 }
+// 3. Desenvolva um algoritmo que imprima o dobro dele mesmo.
+fun main (){
+    var num = 4
+    println (num * num)
+}
