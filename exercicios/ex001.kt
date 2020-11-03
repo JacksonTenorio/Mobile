@@ -18,3 +18,17 @@ fun main (){
     var num = 4
     println (num * num)
 }
+// 4. Desenvolva um algoritmo que imprima o dobro de um número.
+fun main(){
+    var num = 8
+    var multi = num * 2
+    println("O dobro de $num é $multi".)
+}
+
+/* 5. Desenvolva um algoritmo que utilize os operadores aritméticos e imprima o antecessor e o sucessor de um número */
+fun main(){
+    var num = 4
+    var ant = num - 1
+    var suc = num + 1
+    println("O antecessor de $num é $ant e o seu sucessor é $suc.)
+}
