@@ -38,3 +38,13 @@ fun main(){
     var totaldias = qntmeses * 30
     println("Sete meses tem um total de $totaldias dias.)
 }
+// 6. Desenvolva um algoritmo que calcule e imprima a média das cinco notas de um aluno. 
+fun main(){
+    val port = 7
+    val mat = 8
+    val geo = 6
+    val hist = 6.5
+    val bio = 8.5
+    var med = (port + mat + geo + hist + bio) / 5
+    println("A média das notas do aluno é $med.")
+}
