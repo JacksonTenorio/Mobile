@@ -32,3 +32,9 @@ fun main(){
     var suc = num + 1
     println("O antecessor de $num é $ant e o seu sucessor é $suc.)
 }
+/* 6.Desenvolva um algoritmo que calcule e imprima o total de dias em 7 meses, considerando que cada mês tem 30 dias.*/ 
+fun main(){
+    var qntmeses = 7
+    var totaldias = qntmeses * 30
+    println("Sete meses tem um total de $totaldias dias.)
+}
