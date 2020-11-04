@@ -32,13 +32,13 @@ fun main(){
     var suc = num + 1
     println("O antecessor de $num é $ant e o seu sucessor é $suc.)
 }
-/* 6.Desenvolva um algoritmo que calcule e imprima o total de dias em 7 meses, considerando que cada mês tem 30 dias.*/ 
+// 6.Desenvolva um algoritmo que calcule e imprima o total de dias em 7 meses, considerando que cada mês tem 30 dias./
 fun main(){
     var qntmeses = 7
     var totaldias = qntmeses * 30
     println("Sete meses tem um total de $totaldias dias.)
 }
-// 6. Desenvolva um algoritmo que calcule e imprima a média das cinco notas de um aluno. 
+// 7. Desenvolva um algoritmo que calcule e imprima a média das cinco notas de um aluno. 
 fun main(){
     val port = 7
     val mat = 8
@@ -47,4 +47,10 @@ fun main(){
     val bio = 8.5
     var med = (port + mat + geo + hist + bio) / 5
     println("A média das notas do aluno é $med.")
+}
+// 8. Desenvolva um algoritmo que converta metros para centímetros e imprima o resulatado.
+fun main(){
+    val metros = 1
+    val cent = metros * 100
+    println(" A medida em centímetros é $cent cm.")
 }
