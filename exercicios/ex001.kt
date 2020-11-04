@@ -54,3 +54,9 @@ fun main(){
     val cent = metros * 100
     println(" A medida em centímetros é $cent cm.")
 }
+// Desenvolva um algoritmo que calcule o desconto na venda do produto.
+fun main(){
+    val valor = 4
+    val valorComDesconto = valor + (valor * 0.15)
+    println("O novo valor do produto é R$ $valorComDesconto")
+}
