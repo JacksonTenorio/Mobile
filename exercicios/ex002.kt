@@ -24,3 +24,12 @@ fun main(){
         println("Você é de menor idade")
     }
 }
+/* 3. Utilizandoa estrutura condicional e operadores relacionais, desenvolva um algoritmo que identifica se um determinado número inteiro é par ou ímpar.*/
+fun main(){
+    val num = 3
+    if(num % 2 == 0){
+        println("O número $num é par.")
+    }else{
+        println("O número $num é ímpar.")
+    }
+}
