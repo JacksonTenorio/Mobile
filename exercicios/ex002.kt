@@ -33,3 +33,13 @@ fun main(){
         println("O número $num é ímpar.")
     }
 }
+/* 4. Utilizando a estrutura condicional e operadores lógicos, desenvolva um algoritmo que simule um sistema de login.*/
+fun main(){
+    val login = "jacksontenori"
+    val senha = "12345678"
+    if(login == "jacksontenori" && senha == "12345678"){
+        println("Acesso permitido!")
+    }else{
+        println("Acesso negado!")
+    }
+}
