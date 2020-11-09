@@ -57,3 +57,10 @@ fun main(){
         println("Acima do peso")
     }
 }
+// 6.Utilizando o loop de repetição for, desenvolva um algoritmo que imprima qualquer tabuada.
+fun main(){
+    var tabuada = 5
+    for(n in 0..10){
+        println("$tabuada X $n = ${tabuada * n}")
+    }
+}
