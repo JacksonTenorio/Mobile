@@ -43,3 +43,17 @@ fun main(){
         println("Acesso negado!")
     }
 }
+// 5. Desenvolva uma função que calcula o IMC de uma pessoa, imprimir o valor do IMC e sua classificação.
+fun main(){
+    var peso = 75.3
+    var altura = 1.87
+    val imc = peso / (altura * altura)
+    println("Seu imc é : $imc")
+    if(imc < 18.5){
+        println("Abaixo do peso.")
+    }else if(imc >= 18.5 && imc < 25.0){
+        println("Peso normal.")
+    }else{
+        println("Acima do peso")
+    }
+}
